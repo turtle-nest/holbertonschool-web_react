@@ -1,0 +1,13 @@
+{
+  "name": "task_0",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "ts-loader": "^6.2.1"
+  }
+}
