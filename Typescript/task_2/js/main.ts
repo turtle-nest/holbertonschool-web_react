@@ -66,3 +66,19 @@ export function executeWork(employee: Director | Teacher): string {
 // Tests
 console.log(executeWork(createEmployee(200)));  // Getting to work
 console.log(executeWork(createEmployee(1000))); // Getting to director tasks
+
+// Literal type for materials
+export type Subjects = "Math" | "History";
+
+// Function that returns a message according to the subject
+export function teachClass(todayClass: Subjects): string {
+  if (todayClass === "Math") {
+    return "Teaching Math";
+  } else {
+    return "Teaching History";
+  }
+}
+
+// Tests
+console.log(teachClass("Math"));    // Teaching Math
+console.log(teachClass("History")); // Teaching History
